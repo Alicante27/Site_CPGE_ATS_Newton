@@ -1,0 +1,644 @@
+#conteneur {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-color: #fff;
+	min-height: 100%;
+}
+
+@media only screen and (max-width: 1500px) {
+	#conteneur{
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#conteneur{
+		width: 97%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#conteneur{
+		width: 99%;
+	}
+}
+
+#principal {
+	clear: both;
+	margin-right: auto;
+	margin-left:  auto;
+	margin-bottom: 10px;
+}
+
+#entete {
+	float: top;
+	width: 95%;
+	margin: 5px auto 5px auto;
+	overflow:auto;
+}
+
+#Pied {
+	display: bottom;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	color: #999;
+	text-align: center;
+	font-size: 80%;
+}
+
+#legal {
+	font-style: italic;
+	font-size: 80%;
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+}
+
+#toggle-button {
+	max-width: 300px;
+}
+
+body {
+	margin: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Logo des filières d'ATS */
+.logo{
+	padding: 12px 5px;
+	float: left;
+	height: 64px;
+	width: 64px;
+}
+
+@media only screen and (max-width: 400px) {
+  .logo{
+		height: 40px;
+		width: 40px;
+  }
+}
+
+
+/*  Logo du lycée Newton de de moodle */
+.logo_newton {
+	padding: 5px;
+	width: 100%;
+	max-width: 280px;
+	display: inline-block;
+}
+
+.shadow3,
+.shadow,
+.content {
+	position: relative;
+	bottom: 2px;
+	right: 2px;
+}
+
+.shadow3,
+.shadow_index,
+.shadow {
+	background-color: #666; /*shadow color*/
+}
+
+.content {
+	justify-content: center;
+	align-items: center; 
+	background-color: #b2b4cf;
+	height: 90px;
+	width: auto;
+	display: flex;
+	border: 1px #ddd dotted;
+}
+
+.content2 {
+	background-color: #d6d8f4;
+	color: black; 
+	position: relative;
+	bottom: 2px;
+	right: 2px;
+	border: 1px #ddd dotted;
+}
+
+.content3 {
+	background-color: #d6d8f4;
+	color: black; 
+	position: relative;
+	bottom: 2px;
+	right: 2px;
+	border: 1px #ddd dotted;
+}
+
+.text {
+	flex: 0 0 100px;
+}
+
+
+.text3 {
+	margin: 10px;
+}
+
+
+/*Pour couper les url du tableau des écoles ingé */
+.cut-url {
+  margin: 8px;	
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  height: 1.2em; 
+  white-space: nowrap;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .cut-url {
+	max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cut-url {
+	max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cut-url {
+	max-width: 150px;
+  }
+}
+
+/* Si taille écran trop petite icone plutot que url */
+@media only screen and (max-width: 730px) {
+  .cut-url {
+	display: none;
+  }
+}
+
+.cut-icon{
+	height: 40px;
+	width: 40px;
+	display: none;
+}
+
+@media only screen and (max-width: 730px) {
+	.cut-icon{
+		display: block;
+	}
+}
+
+
+.message_smatphone{
+	display: none;
+}
+	
+@media only screen and (max-width: 800px) {
+	.message_smatphone{
+		display: block;
+	}
+}
+
+
+/*Pour résoudre le pblm de texte qui overflow */
+.text2 {
+	text-align: left;
+	margin: 8px;
+	  /* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	-ms-word-break: break-all;
+	
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	/* Careful, this breaks the word wherever it is without a hyphen */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+
+.cut-ville {
+	color:grey;
+    display: -webkit-box;
+    max-width: 800px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.text_ctr {
+	text-align: center;
+}
+
+
+.case2,.case {
+	padding-bottom: 2px;
+	width: 96%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+}
+
+
+/* centrer du texte */
+.case_centr {
+	margin: 0 auto;
+	height: auto;
+	width: 75%;
+	margin-bottom: 2px;
+}
+
+.case_centr2 {
+	margin: 0 auto;
+	height: auto;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	.case_centr, .case2, .case {
+		width: 95%;
+	}
+}
+
+/* Change the color of links on hover */
+.case a:hover {
+  background-color: #9599cf;
+  color: black;
+}
+
+
+/* div pour le bouton rechercher du */
+.rechercher {
+	padding-top: 10px;
+	padding-bottom: 2px;
+	width: 96%;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Pour double colonne qui deviens simple colonne si écran trop petit */
+.col, .col_15, .col_85, .col_img, .col_graphe {
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+
+
+
+.col_img, .col {
+	min-width: 280px;
+	width: 49%;
+}
+
+
+.col_graphe {
+	width: 49%;
+}
+
+@media only screen and (max-width: 480px) {
+  .col_graphe {
+	width: 99%;
+  }
+}
+
+
+@media only screen and (max-width: 719px) {
+  .col {
+	width: 100%;
+  }
+}
+
+
+/*Variante avec colonne pour 2 images */
+@media only screen and (max-width: 1300px) {
+	.col_img {
+		width: 100%;
+	}
+}
+
+
+/*Variante avec colonne 15/85 */
+.col_15 {
+	min-width: 180px;
+	width: 15%;
+}
+
+.col_85 {
+	margin-left: 20px;
+	width: 80%;
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 1220px) {
+  .col_15 {
+	width: 25%;
+  }
+   .col_85 {
+	width: 70%;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .col_15 {
+	width: 35%;
+  }
+   .col_85 {
+	width: 60%;
+	margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .col_15 {
+	width: 100%;
+  }
+   .col_85 {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+  }
+}
+
+
+/*  Taille max des graphes */
+.graphe_max { 
+	width: 400px;
+}
+
+@media only screen and (max-width: 850) {
+	.graphe_max  {
+		width: fit-content;
+	}
+}
+
+
+
+h1, h2, h4, h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+img {  
+	border-style: none;
+}
+
+
+.img_500 {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	max-width: 600px;
+}
+
+.titre1 {
+	padding-top: 10px;
+    display: flex;
+	text-align: center;
+    align-items: center;
+    justify-content: center;
+	font-size : 110%;
+	width: auto;
+}
+
+.titre2 {
+	text-align: left;
+	margin-left: 8px;
+}
+
+.titre3 {
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.titre4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 8px;
+	text-align: left;
+	font-size : 110%;
+}
+
+.titre5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 8px;
+	text-align: center;
+	font-size : 100%;
+	margin-bottom: 8px;
+	padding-top: 20px;
+}
+
+.partie {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #FFFFEE;
+	border: 1px #ddd dotted;
+	width: auto;
+	height: auto;
+	overflow:hidden;
+	border-radius: 3px;
+}
+
+
+
+.partie2 {
+	padding: 1px;
+	margin: 1px;
+	width: auto;
+	height: auto;
+	overflow:hidden;
+}
+
+
+/* le champ de recherche */
+.recherche {
+	padding: 10 px;
+	width: 90%;
+	border: solid;
+	border-radius: 5px;
+	background-color: #9599cf;
+	align-items: center;
+	justify-content: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*Des marges agréable pour le formulaire */
+.form {
+	margin: 5px;
+	float: left;
+}
+
+
+/* classe des label du BDA3TSi2 */
+.label_bda3TSi2 {
+	width : 63px;
+	display: inline-block;
+	text-align: right;
+}
+
+
+/* classe des label des résultats de promo */
+.label_promo {
+	width : 80px;
+	display: inline-block;
+	text-align: right;
+}
+
+/* Pour cacher des informations non essentielles */
+.target , .target_origine, .message_gmap, .target_resultats { display: none; }
+
+
+
+/* Message gmap si cookies non accepté */
+.message_gmap {
+	padding: 5 px;
+	width: 90%;
+	text-align: center;
+	font-size: 17px;
+}
+
+/* Table fixé */
+.tfixed {
+	table-layout: fixed;
+	width: 99%;
+}
+
+/*table variable avec alternance de couleur à chaque ligne */
+.talt, .talt_cache {
+	table-layout: auto;
+	width: 100%;
+}
+
+/* Alternance de couleur pour les lignes de la table variable */
+.talt tr:nth-child(odd){
+	background-color: #d6d8f4;
+	color: black;
+}
+
+.talt_cache tr:nth-child(odd){
+	background-color: #d6d8f4;
+	color: black;
+}
+
+/* Supprimer des colonnes si écran trop petit */
+@media only screen and (max-width: 790px) {
+	.talt_cache td:nth-child(6) {
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.talt_cache td:nth-child(5) {
+		display:none;
+	}
+}
+
+/* Bannière cookies  */
+.cookie-banner {
+	position: fixed;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	max-width: 900px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #b2b4cf;
+	border-radius: 5px;
+	border: 2px dotted; 
+}
+
+@media only screen and (max-width: 860px) {
+	.cookie-banner {
+		width: 94%;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.cookie-banner {
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+
+/* marge du bouton consentir de la banniere cookies */
+.cookie_button {
+	margin-right: 10px;
+}
+
+
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+
+/* CSS pour les pages de contact */
+/* Message d'erreur */
+.alert {
+	text-align: center;
+	font-size: 17px;
+	color: #800020;
+}
+
+/* Message de succe */
+.succes {
+	text-align: center;
+	font-size: 17px;
+	color: green;
+}
+
+/* Mise en forme de la zone de texte principale */
+.text_contact{
+	width: 60%;
+}
+
+@media only screen and (max-width: 700px) {
+	.text_contact{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.text_contact{
+		width: 98%;
+	}
+}
+
+/* Style de la maison*/
+.maison {
+	background-color: #b2b4cf;
+	border: 1px dotted;
+	display: inline-flex;
+	border-radius: 3px;
+}
+
+/* Change la couleur du fond quand souris passe dessus */
+.maison a:hover {
+	background-color: #9599cf;
+}

@@ -1,0 +1,3 @@
+// Pour la carte page "ATS_ii_liste_cpge" ajouter une clef Google maps au fichier JS/afficher_gmap.js
+// Pour les formulaires de contacts compléter fichier config_mail.php
+// Pour les tableaux de résultats et d'écoles d'ingénieur compléter fichier config_sql.php et importer les tables ecole.sql et resultats.sql

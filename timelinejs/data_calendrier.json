@@ -1,0 +1,286 @@
+{
+    "title": {
+        "media": {
+            "url": "images/Ingenieur_icon.png"
+        },
+        "text": {
+            "headline": "ATS Ingénierie industrielle",
+            "text": "<p>Frise chronologique simplifié 2021/2022</p>"
+        }
+    },
+    "events": [
+        {
+
+            "start_date": {
+                "year": "2021",
+				"month": "09",
+				"day": "02"
+            },
+            "text": {
+                "headline": "Rentrée des élèves",
+                "text": "<p>Les CPGE suivent exactement le même calendrier que les lycée dans lesquels elles sont situées.</p>"
+			
+            },
+			"media": {
+				"url" : "images/MEN.svg.png"
+			},
+			"background": {
+				"color": "#666"
+			}
+        },
+        
+        {
+
+            "start_date": {
+
+                "year": "2021",
+                "month": "10",
+                "day": "23"
+            },
+            "end_date": {
+
+                "year": "2021",
+                "month": "11",
+                "day": "08"
+            },
+            "text": {
+                "headline": "Vacances de la Toussaint",
+                "text": "<p>Les CPGE suivent exactement le même calendrier que les lycée dans lesquels elles sont situées.</p>"
+
+            },
+			"media": {
+				"url" : "images/MEN.svg.png"
+			},
+			"background": {
+				"color": "#666"
+			}
+        },
+        
+        {
+
+            "start_date": {
+
+                "year": "2021",
+                "month": "12",
+                "day": "18"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "01",
+                "day": "03"
+            },
+            "text": {
+                "headline": "Vacances de Noël",
+                "text": "<p>Les CPGE suivent exactement le même calendrier que les lycée dans lesquels elles sont situées.</p>"
+            },
+			"media": {
+				"url" : "images/MEN.svg.png"
+			},
+			"background": {
+				"color": "#666"
+			}
+        },
+
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "02",
+                "day": "05"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "03",
+                "day": "07"
+            },
+            "text": {
+                "headline": "Vacances d'hiver",
+                "text": "<p>Vacances d'hiver selon votre Zone.</p>"
+            },
+			"media": {
+				"url" : "images/MEN.svg.png"
+			},
+			"background": {
+				"color": "#666"
+			}
+        },
+
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "04",
+                "day": "09"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "05",
+                "day": "09"
+            },
+            "text": {
+                "headline": "Vacances de printemps",
+                "text": "<p>Vacances de printemps selon votre Zone.</p>"
+            },
+			"media": {
+				"url" : "images/MEN.svg.png"
+			},
+			"background": {
+				"color": "#666"
+			}
+        },
+
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "02",
+                "day": "09"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "03",
+                "day": "09"
+            },
+            "text": {
+                "headline": "Inscription au concours ATS",
+                "text": "<p>Inscription par internet sur le site de l'ENSEA.</p>"
+            },
+			"media": {
+				"url" : "images/logo_ensea.png",
+				"link" : "http://concours.ensea.fr/portail/ats.html"
+			},
+			"background": {
+				"color": "#b2b4cf"
+			}
+        },
+
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "05",
+                "day": "09"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "05",
+                "day": "11"
+            },
+            "text": {
+                "headline": "Épreuves écrites du concours ATS",
+                "text": "<p>Épreuve écrite dans 33 centres en France métropolitaine et d'Outre Mer.</p>"
+            },
+			"media": {
+				"url" : "images/logo_ensea.png",
+				"link" : "http://concours.ensea.fr/portail/ats.html"
+			},
+			"background": {
+				"color": "#b2b4cf"
+			}
+        },
+
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "06",
+                "day": "20"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "06",
+                "day": "23"
+            },
+            "text": {
+                "headline": "Épreuves orales du concours ATS",
+                "text": "<p>Épreuves orales communes du concours ATS à l'ENSEA.</p>"
+            },
+			"media": {
+				"url" : "images/logo_ensea.png",
+				"link" : "http://concours.ensea.fr/portail/ats.html"
+			},
+			"background": {
+				"color": "#b2b4cf"
+			}
+        },
+
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "01",
+                "day": "03"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "03",
+                "day": "11"
+            },
+            "text": {
+                "headline": "Inscription au concours Centrale-Supélec",
+                "text": "<p>Inscription par internet sur le site de Centrale-Supélec.</p>"
+            },
+			"media": {
+				"url" : "images/logo_centrale_supelec.png",
+				"link" : "http://education-centralesupelec.fr/"
+				
+			}
+        },
+
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "06",
+                "day": "13"
+            },
+
+            "text": {
+                "headline": "Épreuves écrites du concours Centrale-Supélec",
+                "text": "<p>Les épreuves ont lieu dans le campus Central-Supélec de Paris-Saclay.</p>"				
+            },
+			"media": {
+				"url" : "images/logo_centrale_supelec.png",
+				"link" : "http://education-centralesupelec.fr/"
+			}
+        },
+	
+        {
+
+            "start_date": {
+
+                "year": "2022",
+                "month": "06",
+                "day": "14"
+            },
+            "end_date": {
+
+                "year": "2022",
+                "month": "06",
+                "day": "24"
+            },
+            "text": {
+                "headline": "Épreuves orales du concours Centrale-Supélec",
+                "text": "<p>Les épreuves ont lieu dans le campus Central-Supélec de Paris-Saclay.</p>"	
+            },
+			"media": {
+				"url" : "images/logo_centrale_supelec.png",
+				"link" : "http://education-centralesupelec.fr/"
+			}
+        }
+]
+}
